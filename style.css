@@ -61,9 +61,12 @@ body {
 }
 
 .circle {
-    height: 120px;
-    width: 120px;
+    height: 130px;
+    width: 130px;
     border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+    background-image: url(/Screenshot\ 2024-06-17\ 150834.png);
     background-color: violet;
 }
 
@@ -341,7 +344,7 @@ body {
 
 .box5 {
     margin: 10px 0;
-    height: 45%;
+    height: 50%;
     width: 100%;
     background-color: #292327;
     border-radius: 10px;
@@ -360,7 +363,7 @@ body {
     align-items: center;
     justify-content: center;
     /* flex-direction: ; */
-    gap: 0.8vw;
+    gap: 1vw;
     color: white;
 }
 
@@ -368,7 +371,7 @@ body {
     height: 120px;
     width: 10px;
     background-color: #1D181C;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
     border-radius: 10px;
     display: flex;
     align-items: center;
@@ -421,4 +424,36 @@ body {
 .e,
 .m {
     height: 60px;
+}
+
+.div-right {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+}
+
+.right1 {
+    height: 200px;
+    width: 400px;
+    /* background-color: #b63576; */
+    background-image: url(https://cdn.pixabay.com/photo/2014/03/24/17/20/bar-chart-295453_1280.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.right {
+    margin-left: 20%;
+    text-align: center;
+    /* border: 1px solid white; */
+    border-radius: 15px;
+    padding: 10px 15px;
+    gap: 2vw;
+    font-size: 10px;
+    display: flex;
+    color: white;
 }
